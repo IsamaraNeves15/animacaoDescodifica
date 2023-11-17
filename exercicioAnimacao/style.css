@@ -1,0 +1,32 @@
+*{
+  background-color: rgb(222, 119, 119);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Kenia', sans-serif;
+}
+
+p {
+  font-size: 28px;
+  text-align: center;
+ margin: 10px auto;
+}
+
+.img-container {
+ text-align: center;
+}
+
+img {
+ animation: fadeInFadeOut 1s infinite;
+}
+
+@keyframes fadeInFadeOut {
+  0% {opacity: 1;}
+  50% {opacity: 0.2;}
+  100% {opacity: 1;}
+}
